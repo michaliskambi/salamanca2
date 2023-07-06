@@ -151,9 +151,9 @@ begin
     Pos := UserConfig.GetVector3('player_position');
     Dir := UserConfig.GetVector3('player_direction');
     Up := UserConfig.GetVector3('player_up');
-  end;
 
-  MichalisViewport.Camera.SetWorldView(Pos, Dir, Up);
+    MichalisViewport.Camera.SetWorldView(Pos, Dir, Up);
+  end;
 end;
 
 end.
