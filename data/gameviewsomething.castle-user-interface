@@ -33,7 +33,7 @@
             "TranslationPersistent" : {
               "$$ClassName" : "TCastleVector3Persistent",
               "Y" : 2.5719709396362305E+000,
-              "Z" : 1.7870910644531250E+001
+              "Z" : 3.2479553222656250E+001
             }
           },
           {
@@ -368,6 +368,7 @@
               {
                 "$$ClassName" : "TCastleSound",
                 "Name" : "Sound2",
+                "Stream" : true,
                 "URL" : "castle-data:/audio/intro_music_mono.ogg"
               }
             ]
@@ -433,21 +434,16 @@
         },
         "RotationPersistent" : {
           "$$ClassName" : "TCastleVector4RotationPersistent",
-          "W" : 6.3899940252304077E-001,
-          "X" : -8.1974178552627563E-002,
-          "Y" : -9.9649614095687866E-001,
-          "Z" : -1.6608325764536858E-002
-        },
-        "ScalePersistent" : {
-          "$$ClassName" : "TCastleVector3Persistent",
-          "X" : 9.9999994039535522E-001,
-          "Z" : 9.9999994039535522E-001
+          "W" : 3.3900469541549683E-001,
+          "X" : 5.4252512753009796E-002,
+          "Y" : 9.9850136041641235E-001,
+          "Z" : 7.2035640478134155E-003
         },
         "TranslationPersistent" : {
           "$$ClassName" : "TCastleVector3Persistent",
-          "X" : -3.1443719863891602E+001,
-          "Y" : 1.0506672859191895E+001,
-          "Z" : 4.1176918029785156E+001
+          "X" : -5.9286332130432129E+000,
+          "Y" : 6.2040257453918457E+000,
+          "Z" : 4.3006164550781250E+001
         }
       },
       "InternalDesignNavigations[dnFly]" : {
