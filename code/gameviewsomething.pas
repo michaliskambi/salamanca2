@@ -116,7 +116,6 @@ begin
   UserConfig.SetVector3('player_direction', Dir);
   UserConfig.SetVector3('player_up', Up);
 
-  //UserConfig.Modified := true;
   UserConfig.Save;
 end;
 

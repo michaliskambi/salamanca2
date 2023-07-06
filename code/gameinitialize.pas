@@ -12,11 +12,9 @@ interface
 implementation
 
 uses SysUtils,
-  CastleWindow, CastleLog, CastleUIControls, CastleSoundEngine, GameSound
+  CastleWindow, CastleLog, CastleUIControls, CastleSoundEngine
   {$region 'Castle Initialization Uses'}
   // The content here may be automatically updated by CGE editor.
-  , GameViewMenu
-  , GameViewPlay
   , GameViewSomething
   {$endregion 'Castle Initialization Uses'};
 
@@ -32,15 +30,10 @@ begin
   { Create views (see https://castle-engine.io/views ). }
   {$region 'Castle View Creation'}
   // The content here may be automatically updated by CGE editor.
-  ViewPlay := TViewPlay.Create(Application);
-  ViewMenu := TViewMenu.Create(Application);
   ViewSomething := TViewSomething.Create(Application);
   {$endregion 'Castle View Creation'}
 
   Window.Container.View := ViewSomething;
-
-  InitializeSounds;
-  SoundEngine.LoopingChannel[0].Sound := NamedSound('MainMusic');
 end;
 
 initialization
