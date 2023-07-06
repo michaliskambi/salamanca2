@@ -1,0 +1,384 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 206,
+      "max": [
+        -1.0025980472564697,
+        0.7550228238105774,
+        1.2464812994003296
+      ],
+      "min": [
+        -1.433974266052246,
+        -2.620837688446045,
+        0.6454766988754272
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2472,
+      "componentType": 5126,
+      "count": 206,
+      "max": [
+        0.9976736307144165,
+        0.9005149602890015,
+        0.9990110397338867
+      ],
+      "min": [
+        -0.9974757432937622,
+        -0.9991241693496704,
+        -0.9802477359771729
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 206,
+      "max": [
+        0.9805735945701599,
+        0.999171793460846,
+        0.9982997179031372,
+        1.0
+      ],
+      "min": [
+        -0.9754328727722168,
+        -0.9984219670295715,
+        -0.9988930225372314,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 206,
+      "max": [
+        0.9669541716575623,
+        0.9655713438987732
+      ],
+      "min": [
+        0.015625,
+        0.3507290184497833
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 840,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4944,
+      "componentType": 5126,
+      "count": 7222,
+      "max": [
+        1.2979925870895386,
+        0.7242496609687805,
+        1.528195858001709
+      ],
+      "min": [
+        -1.3832298517227173,
+        -2.6635782718658447,
+        -1.3489707708358765
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 91608,
+      "componentType": 5126,
+      "count": 7222,
+      "max": [
+        0.9999412894248962,
+        0.9999529123306274,
+        0.9999834895133972
+      ],
+      "min": [
+        -0.9997949600219727,
+        -0.9999609589576721,
+        -0.9998296499252319
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 3296,
+      "componentType": 5126,
+      "count": 7222,
+      "max": [
+        0.999940812587738,
+        0.9999890923500061,
+        0.9998717904090881,
+        1.0
+      ],
+      "min": [
+        -0.9999175667762756,
+        -0.99993497133255,
+        -0.9998117089271545,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1648,
+      "componentType": 5126,
+      "count": 7222,
+      "max": [
+        1.9822285175323486,
+        0.981051504611969
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3360,
+      "componentType": 5125,
+      "count": 32565,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Muru (https://sketchfab.com/muru)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/a-questing-mouse-326494dbe70441d790fd74d06e5b5a39",
+      "title": "A Questing Mouse"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 133620,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 59424,
+      "byteOffset": 133620,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 178272,
+      "byteOffset": 193044,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 118848,
+      "byteOffset": 371316,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 490164,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/lambert1_baseColor.png"
+    },
+    {
+      "uri": "textures/lambert1_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/lambert1_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "lambert1",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Stick_lambert1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "polySurface7_lambert1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Homiak_pose2.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Character"
+    },
+    {
+      "children": [
+        5,
+        7
+      ],
+      "name": "Mesh"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Stick"
+    },
+    {
+      "mesh": 0,
+      "name": "Stick_lambert1_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "polySurface7"
+    },
+    {
+      "mesh": 1,
+      "name": "polySurface7_lambert1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

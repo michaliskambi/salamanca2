@@ -1,0 +1,28 @@
+{
+  "$$ClassName" : "TCastleTransform",
+  "Name" : "Transform1",
+  "$Children" : [
+    {
+      "$$ClassName" : "TCastleSphere",
+      "ColorPersistent" : {
+        "$$ClassName" : "TCastleColorPersistent",
+        "Blue" : 0.0000000000000000E+000,
+        "Green" : 3.1372550129890442E-001
+      },
+      "Name" : "Sphere1",
+      "RenderOptions" : {
+        "$$ClassName" : "TCastleScene.TSceneRenderOptions"
+      }
+    }
+  ],
+  "$Behaviors" : [
+    {
+      "$$ClassName" : "TCastleSphereCollider",
+      "Name" : "SphereCollider1"
+    },
+    {
+      "$$ClassName" : "TCastleRigidBody",
+      "Name" : "RigidBody1"
+    }
+  ]
+}

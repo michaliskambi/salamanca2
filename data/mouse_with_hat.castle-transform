@@ -1,0 +1,51 @@
+{
+  "$$ClassName" : "TCastleTransform",
+  "Name" : "Transform1",
+  "$Children" : [
+    {
+      "$$ClassName" : "TCastleScene",
+      "ExposeTransforms" : [
+      ],
+      "Name" : "SceneAQuestingMouse1",
+      "RenderOptions" : {
+        "$$ClassName" : "TCastleScene.TSceneRenderOptions",
+        "Blending" : false,
+        "WholeSceneManifold" : true
+      },
+      "URL" : "castle-data:/sketchfab/a-questing-mouse-326494dbe70441d790fd74d06e5b5a39/scene.gltf"
+    },
+    {
+      "$$ClassName" : "TCastleCone",
+      "Name" : "Cone1",
+      "RenderOptions" : {
+        "$$ClassName" : "TCastleScene.TSceneRenderOptions"
+      },
+      "TranslationPersistent" : {
+        "$$ClassName" : "TCastleVector3Persistent",
+        "Y" : 1.3970115184783936E+000,
+        "Z" : 1.1453151702880859E+000
+      }
+    },
+    {
+      "$$ClassName" : "TCastleText",
+      "Alignment" : "hpMiddle",
+      "ColorPersistent" : {
+        "$$ClassName" : "TCastleColorPersistent",
+        "Green" : 1.8823529779911041E-001,
+        "Red" : 3.4509804844856262E-001
+      },
+      "Name" : "Text1",
+      "RenderOptions" : {
+        "$$ClassName" : "TCastleScene.TSceneRenderOptions"
+      },
+      "Size" : 5.0000000000000000E-001,
+      "Text" : [
+        "Mouse"
+      ],
+      "TranslationPersistent" : {
+        "$$ClassName" : "TCastleVector3Persistent",
+        "Y" : 2.4437851905822754E+000
+      }
+    }
+  ]
+}
