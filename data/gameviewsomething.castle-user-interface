@@ -129,7 +129,7 @@
                   {
                     "$$ClassName" : "TCastleSound",
                     "Name" : "Sound1",
-                    "URL" : "castle-data:/audio/alien_sudden_pain.wav",
+                    "URL" : "castle-data:/audio/werewolf_howling.wav",
                     "Volume" : 5.0000000000000000E-001
                   }
                 ]
@@ -362,12 +362,14 @@
         "$Behaviors" : [
           {
             "$$ClassName" : "TCastleSoundSource",
-            "Name" : "MusicSoundSource2",
+            "Name" : "MusicSoundSource",
+            "Sound" : "MusicSound",
             "Spatial" : false,
+            "Volume" : 3.0000001192092896E-001,
             "$NonVisualComponents" : [
               {
                 "$$ClassName" : "TCastleSound",
-                "Name" : "Sound2",
+                "Name" : "MusicSound",
                 "Stream" : true,
                 "URL" : "castle-data:/audio/intro_music_mono.ogg"
               }
@@ -409,15 +411,15 @@
           "CustomBackgroundPressed" : {
             "$$ClassName" : "TCastleImagePersistent"
           },
-          "FontSize" : 1.0000000000000000E+002,
+          "FontSize" : 5.0000000000000000E+001,
           "Image" : {
             "$$ClassName" : "TCastleImagePersistent"
           },
           "Name" : "MyButton",
           "TranslationPersistent" : {
             "$$ClassName" : "TCastleVector2Persistent",
-            "X" : 2.0000000000000000E+001,
-            "Y" : -1.6635803222656250E+002
+            "X" : 1.0000000000000000E+001,
+            "Y" : -1.0635803222656250E+002
           },
           "VerticalAnchorParent" : "vpTop",
           "VerticalAnchorSelf" : "vpTop"
@@ -434,16 +436,16 @@
         },
         "RotationPersistent" : {
           "$$ClassName" : "TCastleVector4RotationPersistent",
-          "W" : 3.3900469541549683E-001,
-          "X" : 5.4252512753009796E-002,
-          "Y" : 9.9850136041641235E-001,
-          "Z" : 7.2035640478134155E-003
+          "W" : 1.1424983739852905E+000,
+          "X" : -1.6576875746250153E-001,
+          "Y" : -9.8115819692611694E-001,
+          "Z" : -9.9244408309459686E-002
         },
         "TranslationPersistent" : {
           "$$ClassName" : "TCastleVector3Persistent",
-          "X" : -5.9286332130432129E+000,
+          "X" : -7.1075835227966309E+000,
           "Y" : 6.2040257453918457E+000,
-          "Z" : 4.3006164550781250E+001
+          "Z" : 3.1592988967895508E+001
         }
       },
       "InternalDesignNavigations[dnFly]" : {
@@ -477,7 +479,7 @@
       "CustomBackgroundPressed" : {
         "$$ClassName" : "TCastleImagePersistent"
       },
-      "FontSize" : 1.0000000000000000E+002,
+      "FontSize" : 5.0000000000000000E+001,
       "Image" : {
         "$$ClassName" : "TCastleImagePersistent"
       },
@@ -505,7 +507,7 @@
       "CustomBackgroundPressed" : {
         "$$ClassName" : "TCastleImagePersistent"
       },
-      "FontSize" : 1.0000000000000000E+002,
+      "FontSize" : 5.0000000000000000E+001,
       "Image" : {
         "$$ClassName" : "TCastleImagePersistent"
       },
@@ -523,7 +525,7 @@
         "Green" : 2.5882354378700256E-001,
         "Red" : 9.0196080505847931E-002
       },
-      "FontSize" : 5.0000000000000000E+001,
+      "FontSize" : 3.0000000000000000E+001,
       "HorizontalAnchorParent" : "hpRight",
       "HorizontalAnchorSelf" : "hpRight",
       "Name" : "LabelFps",
