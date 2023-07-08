@@ -1,6 +1,10 @@
-# My New Project
+# Test project created during CGE workshop on IPC 2023
+
+See [CGE workshop notes](https://castle-engine.io/ipc2023/cge-course.html).
 
 Using [Castle Game Engine](https://castle-engine.io/).
+
+![Screenshot](screenshot.png)
 
 ## Building
 
